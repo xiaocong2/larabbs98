@@ -97,6 +97,8 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/laravel-lang" />
+      <path value="$PROJECT_DIR$/vendor/caouecs/laravel-lang" />
     </include_path>
   </component>
   <component name="ProjectId" id="1QYmBiBiThNYj4reOQePNdR6IoY" />
@@ -147,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567955769107</updated>
-      <workItem from="1567955770411" duration="6546000" />
+      <workItem from="1567955770411" duration="7007000" />
     </task>
     <servers />
   </component>
