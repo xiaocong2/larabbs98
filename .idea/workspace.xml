@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0975886-27ab-4b35-aaf1-a3a84b495644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/users/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shared/_error.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/show.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +117,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/shared" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -125,9 +128,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xiaobuding\Code\larabbs\resources\views\shared" />
       <recent name="C:\Users\xiaobuding\Code\larabbs\resources\views\users" />
       <recent name="C:\Users\xiaobuding\Code\larabbs\resources\views\pages" />
-      <recent name="C:\Users\xiaobuding\Code\larabbs\resources\views\shared" />
       <recent name="C:\Users\xiaobuding\Code\larabbs\resources\views\layouts" />
     </key>
   </component>
@@ -163,7 +166,10 @@
       <workItem from="1567992824240" duration="1197000" />
       <workItem from="1568130029716" duration="5061000" />
       <workItem from="1568164347522" duration="775000" />
-      <workItem from="1568474830029" duration="4323000" />
+      <workItem from="1568474830029" duration="4458000" />
+      <workItem from="1568509033856" duration="48000" />
+      <workItem from="1568529413556" duration="693000" />
+      <workItem from="1568564098660" duration="2734000" />
     </task>
     <servers />
   </component>
