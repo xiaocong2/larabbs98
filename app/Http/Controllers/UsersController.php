@@ -13,6 +13,12 @@ use DB;
 
 class UsersController extends Controller
 {
+    public function __construct()
+    {
+        //用中间件auth判断用户是否登录，except指定除此方法外其他都要登录才能操作
+        $this->middleware('auth',['except' => ['show']]);
+    }
+
     /**
      * 显示个人中心
      * @param User $user
@@ -28,6 +34,7 @@ class UsersController extends Controller
      */
     public function edit(User $user)
     {
+        $this->authorize('update',$user);
         return view('users.edit',compact('user'));
     }
 
@@ -36,6 +43,7 @@ class UsersController extends Controller
      */
     public function update(UserRequest $request ,ImageUploadHandler $uploader,User $user)
     {
+        $this->authorize('update',$user);
 //        dd($request->all());
         $data = $request->all();
         if ($request->avatar) {
