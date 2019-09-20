@@ -14,8 +14,12 @@ class TopicObserver
         //
     }
 
-    public function updating(Topic $topic)
+    /**
+     * 截取文章摘要并赋值
+     * @param Topic $topic
+     */
+    public function saving(Topic $topic)
     {
-        //
+        $topic->excerpt = make_excerpt($topic->body);
     }
 }

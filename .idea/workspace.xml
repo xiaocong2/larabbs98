@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0975886-27ab-4b35-aaf1-a3a84b495644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/users/_topics.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/TopicRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/TopicRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Topic.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Topic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Observers/TopicObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Observers/TopicObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/topics/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/_sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +124,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -178,7 +182,9 @@
       <workItem from="1568733409626" duration="6625000" />
       <workItem from="1568816604712" duration="9059000" />
       <workItem from="1568856467146" duration="45000" />
-      <workItem from="1568904544350" duration="6434000" />
+      <workItem from="1568904544350" duration="6694000" />
+      <workItem from="1568942888598" duration="255000" />
+      <workItem from="1568990301417" duration="2466000" />
     </task>
     <servers />
   </component>
