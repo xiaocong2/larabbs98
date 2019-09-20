@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0975886-27ab-4b35-aaf1-a3a84b495644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/topics/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/_topic_body.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/topics/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/show.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +122,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/uploads/images/topics" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/sass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -131,11 +133,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xiaobuding\Code\larabbs\resources\sass" />
       <recent name="C:\Users\xiaobuding\Code\larabbs\public\uploads\images\topics" />
       <recent name="C:\Users\xiaobuding\Code\larabbs\resources\editor\css" />
       <recent name="C:\Users\xiaobuding\Code\larabbs\resources\editor\js" />
       <recent name="C:\Users\xiaobuding\Code\larabbs\resources\views\users" />
-      <recent name="C:\Users\xiaobuding\Code\larabbs\resources\views\topics" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -180,7 +182,7 @@
       <workItem from="1568856467146" duration="45000" />
       <workItem from="1568904544350" duration="6694000" />
       <workItem from="1568942888598" duration="255000" />
-      <workItem from="1568990301417" duration="5361000" />
+      <workItem from="1568990301417" duration="6538000" />
     </task>
     <servers />
   </component>
