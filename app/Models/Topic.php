@@ -71,4 +71,13 @@ class Topic extends Model
         return $query->orderBy('updated_at', 'desc');
     }
 
+    /**
+     * 一篇帖子下有多条回复（帖子和回复一对多的关系）
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function replies()
+    {
+        return $this->hasMany(Reply::class);
+    }
+
 }
