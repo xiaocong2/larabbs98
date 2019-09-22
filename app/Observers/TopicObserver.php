@@ -36,5 +36,14 @@ class TopicObserver
         }
     }
 
+    /**
+     * 删除话题的时候同时删除旗下的评论
+     * @param Topic $topic
+     */
+    public function deleted(Topic $topic)
+    {
+        \DB::table('replies')->where('topic_id', $topic->id)->delete();
+    }
+
 
 }
