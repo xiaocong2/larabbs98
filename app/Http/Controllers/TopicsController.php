@@ -57,7 +57,7 @@ class TopicsController extends Controller
         $topic->fill($request->all());
         $topic->user_id = Auth::id();
         $topic->save();
-		return redirect()->route('topics.show', $topic->id)->with('message', '帖子创建成功！');
+		return redirect()->route('topics.show', $topic->id)->with('success', '帖子创建成功！');
 	}
 
     /**
@@ -73,22 +73,41 @@ class TopicsController extends Controller
 		return view('topics.create_and_edit', compact('topic','categories'));
 	}
 
+    /**
+     * 更新帖子操作
+     * @param TopicRequest $request
+     * @param Topic $topic
+     * @return \Illuminate\Http\RedirectResponse
+     * @throws \Illuminate\Auth\Access\AuthorizationException
+     */
 	public function update(TopicRequest $request, Topic $topic)
 	{
 		$this->authorize('update', $topic);
 		$topic->update($request->all());
 
-		return redirect()->route('topics.show', $topic->id)->with('message', 'Updated successfully.');
+		return redirect()->route('topics.show', $topic->id)->with('success', '更新成功！');
 	}
 
+    /**
+     * 删除帖子
+     * @param Topic $topic
+     * @return \Illuminate\Http\RedirectResponse
+     * @throws \Illuminate\Auth\Access\AuthorizationException
+     */
 	public function destroy(Topic $topic)
 	{
 		$this->authorize('destroy', $topic);
 		$topic->delete();
 
-		return redirect()->route('topics.index')->with('message', 'Deleted successfully.');
+		return redirect()->route('topics.index')->with('success', '成功删除！');
 	}
 
+    /**
+     * 上传头像
+     * @param Request $request
+     * @param ImageUploadHandler $uploader
+     * @return array
+     */
     public function uploadImage(Request $request,ImageUploadHandler $uploader)
     {
         //初始化返回数据，默认失败的
