@@ -36,10 +36,13 @@ Route::get('email/resend', 'Auth\VerificationController@resend')->name('verifica
 //个人中心页面
 Route::resource('users', 'UsersController', ['only' => ['show', 'update', 'edit']]);
 //话题相关路由
-Route::resource('topics', 'TopicsController', ['only' => ['index', 'show', 'create', 'store', 'update', 'edit', 'destroy']]);
+Route::resource('topics', 'TopicsController', ['only' => ['index',  'create', 'store', 'update', 'edit', 'destroy']]);
+Route::get('topics/{topic}/{slug?}', 'TopicsController@show')->name('topics.show');
 //分类下的话题路由
 Route::resource('categories', 'CategoriesController', ['only' => [ 'show']]);
 //上传话题图片
 Route::post('upload_image', 'TopicsController@uploadImage')->name('topics.upload_image');
 
-Route::resource('replies', 'RepliesController', ['only' => ['index', 'show', 'create', 'store', 'update', 'edit', 'destroy']]);
+//回复信息路由
+Route::resource('replies', 'RepliesController', ['only' => [ 'store', 'destroy']]);
+
